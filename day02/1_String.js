@@ -130,3 +130,13 @@ let domain = email.substring(email.indexOf('@')+1,email.lastIndexOf('.'));
 
 // let domain = email.substring(email.lastIndexOf('@')+1 ,email.lastIndexOf('.'));
  console.log(domain);
+
+ console.log("----------------------------------");
+
+ let employeeName="Breanna";
+ let employeeAge=25;
+
+ console.log("Employee Name: "+employeeName);
+ console.log(`Employee Name is ${employeeName} and Employee Age is ${employeeAge} years old.`)
+ //If you wanna achieve above statement use backtick `` instead single and double quotes.
+
